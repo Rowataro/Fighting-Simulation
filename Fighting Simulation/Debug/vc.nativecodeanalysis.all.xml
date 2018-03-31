@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\hp pro\documents\visual studio 2017\projects\misc\fighting simulation\fighting simulation\</FILEPATH>
+      <FILENAME>fighting simulation.cpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'rand'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\hp pro\documents\visual studio 2017\projects\misc\fighting simulation\fighting simulation\</FILEPATH>
+      <FILENAME>monster.cpp</FILENAME>
+      <LINE>104</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'num'.</DESCRIPTION>
+    <FUNCTION>Monster::getRandomMonster</FUNCTION>
+    <DECORATED>?getRandomMonster@Monster@@SA?AV1@ABVPlayer@@@Z</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\hp pro\documents\visual studio 2017\projects\misc\fighting simulation\fighting simulation\</FILEPATH>
+        <FILENAME>monster.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'num' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp pro\documents\visual studio 2017\projects\misc\fighting simulation\fighting simulation\</FILEPATH>
+        <FILENAME>monster.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp pro\documents\visual studio 2017\projects\misc\fighting simulation\fighting simulation\</FILEPATH>
+        <FILENAME>monster.cpp</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp pro\documents\visual studio 2017\projects\misc\fighting simulation\fighting simulation\</FILEPATH>
+        <FILENAME>monster.cpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp pro\documents\visual studio 2017\projects\misc\fighting simulation\fighting simulation\</FILEPATH>
+        <FILENAME>monster.cpp</FILENAME>
+        <LINE>98</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'p.getLevel()==19' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp pro\documents\visual studio 2017\projects\misc\fighting simulation\fighting simulation\</FILEPATH>
+        <FILENAME>monster.cpp</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp pro\documents\visual studio 2017\projects\misc\fighting simulation\fighting simulation\</FILEPATH>
+        <FILENAME>monster.cpp</FILENAME>
+        <LINE>104</LINE>
+        <COLUMN>1</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'num' is an In/Out argument to 'Monster::{ctor}' (declared at c:\users\hp pro\documents\visual studio 2017\projects\misc\fighting simulation\fighting simulation\monster.h:24)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp pro\documents\visual studio 2017\projects\misc\fighting simulation\fighting simulation\</FILEPATH>
+        <FILENAME>monster.cpp</FILENAME>
+        <LINE>104</LINE>
+        <COLUMN>1</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'num' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>

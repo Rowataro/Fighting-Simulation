@@ -1,0 +1,19 @@
+﻿  stdafx.cpp
+  Utlity.cpp
+  Shop.cpp
+c:\users\jreyr\onedrive\documents\visual studio 2017\projects\misc\fighting simulation\fighting simulation\shop.cpp(23): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\users\jreyr\onedrive\documents\visual studio 2017\projects\misc\fighting simulation\fighting simulation\shop.cpp(96): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\users\jreyr\onedrive\documents\visual studio 2017\projects\misc\fighting simulation\fighting simulation\shop.cpp(207): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  Player.cpp
+c:\users\jreyr\onedrive\documents\visual studio 2017\projects\misc\fighting simulation\fighting simulation\player.cpp(46): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\users\jreyr\onedrive\documents\visual studio 2017\projects\misc\fighting simulation\fighting simulation\player.cpp(95): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Monster.cpp
+  Item.cpp
+  Inventory.cpp
+c:\users\jreyr\onedrive\documents\visual studio 2017\projects\misc\fighting simulation\fighting simulation\inventory.cpp(28): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\jreyr\onedrive\documents\visual studio 2017\projects\misc\fighting simulation\fighting simulation\inventory.cpp(66): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  FightLogic.cpp
+  Fighting Simulation.cpp
+  Creature.cpp
+  Generating Code...
+  Fighting Simulation.vcxproj -> C:\Users\jreyr\OneDrive\Documents\Visual Studio 2017\Projects\Misc\Fighting Simulation\x64\Debug\Fighting Simulation.exe

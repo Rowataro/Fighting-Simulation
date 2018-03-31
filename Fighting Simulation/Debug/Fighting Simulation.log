@@ -1,0 +1,11 @@
+﻿  Player.cpp
+c:\users\hp pro\documents\visual studio 2017\projects\misc\fighting simulation\fighting simulation\player.cpp(95): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Monster.cpp
+  FightLogic.cpp
+  Generating Code...
+  Compiling...
+  Shop.cpp
+  Fighting Simulation.cpp
+  Generating Code...
+  Fighting Simulation.vcxproj -> C:\Users\hp Pro\Documents\Visual Studio 2017\Projects\Misc\Fighting Simulation\Debug\Fighting Simulation.exe
+  Fighting Simulation.vcxproj -> C:\Users\hp Pro\Documents\Visual Studio 2017\Projects\Misc\Fighting Simulation\Debug\Fighting Simulation.pdb (Partial PDB)
